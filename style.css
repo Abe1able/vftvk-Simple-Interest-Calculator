@@ -11,11 +11,27 @@ h1 {
     font-family: verdana;
 } 
 .maindiv { 
-    line-height: 2.5; 
+    line-height: 2; 
     background-color: white; 
     color: black; 
-    width: 600px; 
+    width: 500px; 
     padding: 40px; 
     border-radius: 25px; 
     align-items: vertical; 
-} .highlight { color: yellow; }
+} 
+.highlight { background-color: yellow; }
+.label { 
+    display: inline-block;
+    width: 130px;}
+.upper {
+        /* align-items: center; */
+        /* justify-content: center; */
+        left: 50px;
+        position: relative;
+        padding-bottom: 15px;
+}
+.lower {
+    left: 50px;
+    position: relative;
+    line-height: 1;
+}
